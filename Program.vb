@@ -3,13 +3,8 @@ Imports System
 Module Program
 ' Test 
     Sub Main(args As String())
-            dim args_passed as Boolean
-            if args.length >0 then
-                args_passed = true
-            else 
-                args_passed = false
-            end if   
-            if args_passed then 
+            
+            if args.length > 0  then 
                 for i = 0 to args.length-1
                     Console.WriteLine("args were passed: " & " arg(" & i & "): " & args(i))
                 next
