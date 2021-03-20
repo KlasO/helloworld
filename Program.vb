@@ -14,7 +14,8 @@ Module Program
 
             Console.WriteLine("Hello World!")
             for i = 1 to 10
-            Console.Write(i & " ")
+                Console.Write(i & " ")  
             next i
+
     End Sub
 End Module
