@@ -17,7 +17,7 @@ Module Program
                 if i < 10 then 
                 Console.Write(i & " ")  
                 else
-                Console.WriteLine(i & " ")  
+                Console.WriteLine(i)  
                 end if
             next i
 
