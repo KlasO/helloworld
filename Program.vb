@@ -14,7 +14,11 @@ Module Program
 
             Console.WriteLine("Hello World!")
             for i = 1 to 10
+                if i < 10 then 
                 Console.Write(i & " ")  
+                else
+                Console.WriteLine(i & " ")  
+                end if
             next i
 
     End Sub
