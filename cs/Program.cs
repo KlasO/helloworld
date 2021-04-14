@@ -18,7 +18,7 @@ namespace csharp
                 };
             for (int i = 0; i < 4; i++)
             {
-                Console.Write(Math.Pow(i,i) + " ");
+                Console.Write("{Math.Pow(i,i)}  ");
                 Console.WriteLine("Hello World!");
             }
         }
