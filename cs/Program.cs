@@ -7,7 +7,7 @@ namespace csharp
         static void Main(string[] args)
         {
             int myVar; 
-            if (args.Length = 0)
+            if (args.Length == 0)
             {
                 myVar= 1;
                 
@@ -18,6 +18,7 @@ namespace csharp
                 };
             for (int i = 0; i < 4; i++)
             {
+                Console.Write(Math.Pow(i,myVar) + " ");
                 Console.Write(Math.Pow(i,i) + " ");
                 Console.WriteLine("Hello World!");
             }
